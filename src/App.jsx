@@ -1,7 +1,12 @@
 import './App.css'
+import { TripList } from './components/TripList'
 
 function App() {
-  return <div></div>
+  return (
+    <div>
+      <TripList />
+    </div>
+  )
 }
 
 export default App
